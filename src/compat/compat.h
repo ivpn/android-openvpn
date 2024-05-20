@@ -46,7 +46,7 @@ char *dirname(char *str);
 #endif /* HAVE_DIRNAME */
 
 #ifndef HAVE_BASENAME
-char *basename(char *str);
+char *openvpn_basename(char *str);
 
 #endif /* HAVE_BASENAME */
 
